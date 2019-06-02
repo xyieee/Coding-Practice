@@ -9,3 +9,4 @@ class Solution:
                 return [twosum[target-nums[i]],i]
             if target-nums[i] not in twosum:
                 twosum[nums[i]] = i
+# Runtime: 32 ms, memory usage: 14.2 MB
